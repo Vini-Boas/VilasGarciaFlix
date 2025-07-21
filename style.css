@@ -3,23 +3,33 @@ body {
     padding: 0;
     color: white;
     background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header p {
+    font-size:larger;
+}
+
+p, h4, a {
+    padding: 0;
+    margin: 0;
 }
 
 header {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100%;
-    border-bottom: solid 5px grey;
-    background-color: rgb(45, 45, 45);
-    text-align: center;
+    border-bottom: solid 1px rgb(58, 58, 58);
+    background-color: #4a1519;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 40px;
 }
 
 table {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     border-collapse: separate;
-    border-spacing: 50px 0;
+    border-spacing: 10px 0;
 }
 
 th {
@@ -27,23 +37,15 @@ th {
 }
 
 td {
-    text-align: center;
-    background-color: rgb(45, 45, 45);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#Alto {
-    border-radius: 10px 10px 0 0;
-}
-
-#Ano td {
-    line-height: 0.1px;
-}
-
-#Imagem td {
-    height: 300px;
-    width: 200px;
+    text-align:start;
+    vertical-align: top;
     padding: 10px;
+    margin: 0;
+    background-color: rgb(45, 45, 45);
+}
+
+#Titulo td p {
+    color: rgb(153, 153, 153);
 }
 
 a:visited {
@@ -58,14 +60,21 @@ a:visited {
                 box-shadow 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
+#Imagem td {
+    height: 270px;
+    width: 180px;
+    padding: 0px;
+    border-radius: 5px 5px 0 0;
+}
+
 #Imagem img {
     height: 100%;
     width: 100%;
     border-radius: 5px;
 }
 
-#Titulo {
-    height: 2px;
+#Saiba-Mais td {
+    border-radius: 0px 0px 5px 5px;
 }
 
 footer {
@@ -79,5 +88,4 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

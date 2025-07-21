@@ -19,13 +19,11 @@ header {
 main {
     display: flex;
     justify-content:center;
-    align-items: space-around;
 }
 
 #Imagem {
     padding: 20px 10px;
     display: inline-block;
-    vertical-align: top;
 }   
 
 #Critica {
@@ -55,5 +53,4 @@ footer {
     text-align: center;
     bottom: 0;
     width: 100%;
-    position: absolute;
 }
