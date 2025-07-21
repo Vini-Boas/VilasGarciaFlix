@@ -26,7 +26,7 @@ header p {
 
 header {
     width: 100%;
-    border-bottom: solid 1px rgb(58, 58, 58);
+    border-bottom: solid 1px #222526;
     background-color: #4a1519;
     display: flex;
     justify-content: center;
@@ -68,7 +68,7 @@ table {
 
 footer {
     border-top: solid 1px grey;
-    background-color: rgb(28, 28, 28);
+    background-color: #222526;
     padding: 10px 0;
     text-align: center;
     bottom: 0;
